@@ -8,7 +8,7 @@ HHOOK hooker;
 HWND notepadhandle;
 BOOL handled;
 extern "C" __declspec(dllexport) LRESULT CALLBACK HookProc(int nCode, WPARAM wParam, LPARAM lParam);
-char* ConvertInttoChar(int i);
+//char* ConvertInttoChar(int i);
 
 BOOL APIENTRY DllMain(HANDLE hModule, DWORD ul_reason_for_call, LPVOID lpReserved) {
 	if (ul_reason_for_call == DLL_PROCESS_ATTACH) {
