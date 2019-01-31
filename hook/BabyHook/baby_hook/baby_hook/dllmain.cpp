@@ -1,4 +1,4 @@
-// dllmain.cpp : å®šä¹‰ DLL åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
+// dllmain.cpp : ¶¨Òå DLL Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
 #define _CRT_SECURE_NO_WARNINGS
 #include "stdafx.h"
 #include <stdio.h>
@@ -19,7 +19,6 @@ BOOL APIENTRY DllMain(HANDLE hModule, DWORD ul_reason_for_call, LPVOID lpReserve
 			return TRUE;
 		}
 		hooker = SetWindowsHookEx(WH_GETMESSAGE, HookProc, (HINSTANCE)hModule, GetWindowThreadProcessId(notepadhandle, NULL));
-		//SetWindowsHookExè¿”å›hook handle
 		if (hooker) {
 			printf("Hook Succeed.\nHookID:%d\n", (int)hooker);
 		}
@@ -38,7 +37,6 @@ extern "C" __declspec(dllexport) LRESULT CALLBACK HookProc(int nCode, WPARAM wPa
 	tagMSG* msg;
 	msg = (tagMSG*)lParam;
 	if (nCode == HC_ACTION && (msg->message == WM_CLOSE)) {
-		//GetMessageä¼šè§¦å‘HC_ACTION
 		if (handled == FALSE) {
 			handled = TRUE;
 			MessageBox(NULL, L"This is a messagebox from notepad.exe", L"hook", MB_OK);

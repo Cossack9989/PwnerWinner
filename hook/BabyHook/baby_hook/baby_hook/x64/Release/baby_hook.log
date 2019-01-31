@@ -1,0 +1,11 @@
+﻿  dllmain.cpp
+dllmain.cpp(23): warning C4311: “类型转换”: 从“HHOOK”到“int”的指针截断
+dllmain.cpp(23): warning C4302: “类型转换”: 从“HHOOK”到“int”截断
+    正在创建库 D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook\baby_hook\x64\Release\baby_hook.lib 和对象 D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook\baby_hook\x64\Release\baby_hook.exp
+  正在生成代码
+  0 of 10 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  baby_hook.vcxproj -> D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook\baby_hook\x64\Release\baby_hook.dll
+  baby_hook.vcxproj -> D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook\baby_hook\x64\Release\baby_hook.pdb (Full PDB)
