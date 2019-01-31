@@ -1,0 +1,9 @@
+﻿  dllmain.cpp
+    正在创建库 D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook2\baby_hook_2\x64\Release\baby_hook_2.lib 和对象 D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook2\baby_hook_2\x64\Release\baby_hook_2.exp
+  正在生成代码
+  1 of 13 functions ( 7.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  baby_hook_2.vcxproj -> D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook2\baby_hook_2\x64\Release\baby_hook_2.dll
+  baby_hook_2.vcxproj -> D:\Workspace\Local_Record\PwnerWinner\hook\BabyHook2\baby_hook_2\x64\Release\baby_hook_2.pdb (Full PDB)
