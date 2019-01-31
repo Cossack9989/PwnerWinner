@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<windows.h>
 int main(){
-	LoadLibrary("IAT_Hook.dll");
+	LoadLibrary("baby_hook.dll");
 	getchar();
 	return 1;
 } 
